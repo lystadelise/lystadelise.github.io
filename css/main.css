@@ -1,0 +1,90 @@
+body {
+    margin: 60px auto;
+    width: 60%;
+    background-color: #FFF7FF;
+    text-align: center;
+}
+nav ul, footer ul {
+    font-family:'Times New Roman', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+    color:  #02040F;
+    font-family: 'Times New Roman';
+    font-size: 1.5em;
+    line-height: 1.4em;
+}
+a {
+  font-family:'Times New Roman', 'Arial', 'Sans-Serif';
+  text-decoration: none;
+}
+a:link {
+  color: #02040F;
+  font-family: 'Times New Roman';
+  font-size: 1.5em;
+  line-height: 1.4em;
+}
+a:visited {
+  color: #696C79;
+  font-family: 'Times New Roman';
+  font-size: 1.5em;
+  line-height: 1.4em;
+}
+a:hover {
+    color: #02040F;
+    border-bottom: 1px solid #307FE2;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Times New Roman', 'Arial', 'Sans-Serif';
+}
+h2 {
+    font-size: 1.5em;
+    font-family:'Times New Roman', 'Arial', 'Sans-Serif';
+    color: black;
+}
+p {
+    font-family:'Times New Roman', 'Arial', 'Sans-Serif';
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: black;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+li {
+  list-style: disc;
+  font-family:'Times New Roman';
+}
+
+ul.posts {
+    margin: 20px auto 40px;
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+    font-family:'Times New Roman';
+}
+
+.boxed {
+  width: 720px;
+  background-color: #FFF7FF;
+  padding: 10px;
+  display: inline-block;
+}
+
+.box {
+    float: left;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid #696C79;
+}
